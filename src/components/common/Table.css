@@ -1,0 +1,50 @@
+.product-table .ant-table {
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+    color: white;
+  }
+  
+  .product-table .ant-table-thead > tr > th {
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+    color: #a0aec0;
+    border-bottom: none;
+    border-right: none !important; 
+  }
+  
+  .product-table .ant-table-tbody > tr > td {
+    border-bottom: 1px solid #2d3748;
+  }
+  
+  .product-table .ant-table-tbody > tr:hover > td {
+    background-color: #2d3748 !important;
+  }
+  /* .product-table .ant-table-wrapper .ant-table-thead > tr > th {
+    border-right: none !important;
+  } */
+  /* .product-table .ant-table-thead > tr > th::before {
+    display: 'none',
+  }
+   */
+   .ant-table-placeholder {
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity)) !important;
+  }
+  
+  /* Remove bottom border in empty state */
+  .ant-table-placeholder .ant-table-cell {
+    border-bottom: none;
+  }
+  
+  /* Set color for "No data" text */
+  .ant-empty-description {
+    color: rgb(31 41 55 / var(--tw-bg-opacity)) !important;
+  }
+  
+  /* Set fill color for empty state icon */
+  .ant-empty-img-simple-ellipse,
+  .ant-empty-img-simple-path {
+    fill: #4a5568 !important;
+  }
+  
+  /* Set stroke color for empty state icon */
+  .ant-empty-img-simple-g {
+    stroke: #4a5568 !important;
+  }
