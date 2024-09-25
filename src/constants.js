@@ -251,3 +251,24 @@ export const INSIGHTS = [
 		insight: "Optimizing pricing strategy could potentially increase overall profit margins by 5-7%.",
 	},
 ];
+
+export const accounts = [
+	{
+		id: 1,
+		name: "Google",
+		connected: true,
+		icon: "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png",
+	},
+	{
+		id: 2,
+		name: "Facebook",
+		connected: false,
+		icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUcP0ZcWRME2hXax1sPPgNtutzs7H0ZQv2vw&s",
+	},
+	{
+		id: 3,
+		name: "Twitter",
+		connected: true,
+		icon: "https://cdn3.iconfinder.com/data/icons/basicolor-reading-writing/24/077_twitter-512.png",
+	},
+];

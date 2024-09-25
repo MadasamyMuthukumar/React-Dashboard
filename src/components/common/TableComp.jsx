@@ -13,7 +13,7 @@ const TableComp = ({name, columns,filteredData,setSearchText}) => {
         >
             <div className='flex flex-col sm:justify-between sm:flex-row items-center mb-6'>
 
-                <h2 className='text-lg font-medium mb-4 text-gray-100'>{name}</h2>
+                <h2 className='text-lg font-medium mb-4 text-gray-100 '>{name}</h2>
 
                 <div className='relative'>
                     <input type='text'

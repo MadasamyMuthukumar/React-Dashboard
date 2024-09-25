@@ -18,7 +18,7 @@ rounded-xl p-6 border border-gray-700'
                     {
                         INSIGHTS.map((item,index)=>(
                             <div className='flex items-center space-y-2'>
-                                <div className={`sm:inline-block p-2 rounded-full bg-gray-800 bg-opacity-50 mr-4 hidden`}>
+                                <div className={`p-2 rounded-full bg-gray-800 bg-opacity-50 mr-4`}>
                                     <item.icon className={`size-6 ${item.color} `} />
                                 </div>
                                 <p className='text-gray-300'>{item.insight}</p>
