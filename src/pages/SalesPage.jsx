@@ -15,7 +15,7 @@ import DailySalesTrend from "../components/sales/DailySalesTrend";
 const SalesPage = () => {
 	return (
 		<div className='flex-1 overflow-auto relative z-10'>
-			<Header title='Sales Dashboard' />
+			<Header title='Sales' />
 
 			<main className='container mx-auto py-6 px-4 lg:px-8'>
 				{/* SALES STATS */}
